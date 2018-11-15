@@ -1,6 +1,6 @@
 {
-  "name": "word-counter",
-  "version": "0.0.0",
+  "name": "words-counter",
+  "version": "1.0.0",
   "description": "",
   "keywords": [],
   "main": "dist/index.cjs.js",
