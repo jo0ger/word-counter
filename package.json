@@ -1,6 +1,6 @@
 {
   "name": "@jooger/word-counter",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A lib for counting your words and reading time",
   "keywords": [
     "word count"
