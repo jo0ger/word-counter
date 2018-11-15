@@ -4,8 +4,7 @@
   "description": "",
   "keywords": [],
   "main": "dist/index.cjs.js",
-  "browser": "dist/index.umd.js",
-  "module": "dist/index.es5.js",
+  "module": "dist/index.esm.js",
   "typings": "dist/types/index.d.ts",
   "files": [
     "dist"
@@ -13,21 +12,17 @@
   "author": "Jooger <iamjooger@gmail.com>",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/jo0ger/word-counter.git"
   },
   "license": "MIT",
-  "engines": {
-    "node": ">=6.0.0"
-  },
   "scripts": {
     "lint": "tslint  --project tsconfig.json -t codeFrame 'src/**/*.ts' 'test/**/*.ts'",
     "prebuild": "rimraf dist",
-    "build": "tsc --module es2015 && rollup -c rollup.config.ts && typedoc --out docs --target es6 --theme minimal --mode file src",
+    "build": "tsc --module es2015 && rollup -c rollup.config.ts",
     "start": "rollup -c rollup.config.ts -w",
     "test": "jest",
     "test:watch": "jest --watch",
     "test:prod": "npm run lint && npm run test -- --coverage --no-cache",
-    "deploy-docs": "ts-node tools/gh-pages-publish",
     "report-coverage": "cat ./coverage/lcov.info | coveralls",
     "commit": "git-cz",
     "semantic-release": "semantic-release",
@@ -113,7 +108,6 @@
     "tslint": "^5.11.0",
     "tslint-config-prettier": "^1.15.0",
     "tslint-config-standard": "^8.0.1",
-    "typedoc": "^0.12.0",
     "typescript": "^3.0.3"
   },
   "dependencies": {
