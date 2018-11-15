@@ -55,4 +55,10 @@ describe('word-counter test', () => {
       })
     ).toEqual(3)
   })
+
+  it('content be counted should be string type', () => {
+    ;[null, undefined, {}, [], function() {}, Symbol(), true].forEach(type => {
+      expect(() => wordCount(type)).toThrow()
+    })
+  })
 })

@@ -111,6 +111,6 @@
     "typescript": "^3.0.3"
   },
   "dependencies": {
-    "html-to-text": "^4.0.0"
+    "striptags": "^3.1.1"
   }
 }
