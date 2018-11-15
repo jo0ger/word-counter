@@ -3,7 +3,7 @@
 [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 [![Travis](https://img.shields.io/travis/jo0ger/word-counter.svg)](https://travis-ci.org/jo0ger/word-counter)
 [![Coveralls](https://img.shields.io/coveralls/jo0ger/word-counter.svg)](https://coveralls.io/github/jo0ger/word-counter)
-[![Dev Dependencies](https://david-dm.org/jo0ger/words-counter/dev-status.svg)]
+[![Dev Dependencies](https://david-dm.org/jo0ger/word-counter/dev-status.svg)](https://david-dm.org/jo0ger/word-counter?type=dev)
 
 [![NPM](https://nodei.co/npm/words-counter.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/words-counter/)
 [![NPM](https://nodei.co/npm-dl/words-counter.png?months=9&height=3)](https://nodei.co/npm/vue-quill-editor/)
