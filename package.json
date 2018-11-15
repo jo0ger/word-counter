@@ -1,8 +1,10 @@
 {
   "name": "words-counter",
-  "version": "1.0.0",
-  "description": "",
-  "keywords": [],
+  "version": "0.0.0",
+  "description": "A lib for counting your words and reading time",
+  "keywords": [
+    "word count"
+  ],
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
   "typings": "dist/types/index.d.ts",
